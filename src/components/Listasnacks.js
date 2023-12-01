@@ -1,16 +1,16 @@
 const snacks = [
     {
-        id: "1",
+        id: "9",
         name: "Papas Lays",
         price: 827,
         category: "Snack",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00567500/00567578.jpg?3.0.165",
         stock: 58,
-        description: "El mejor del mundo"
+        description: "Papitas"
 
     },
     {
-        id: "2",
+        id: "10",
         name: "Doritos",
         price: 827,
         category: "Snack",
@@ -20,7 +20,7 @@ const snacks = [
 
     },
     {
-        id: "3",
+        id: "11",
         name: "Saladix",
         price: 385,
         category: "Snack",
@@ -30,7 +30,7 @@ const snacks = [
 
     },
     {
-        id: "4",
+        id: "12",
         name: "Chetos",
         price: 827,
         category: "Snack",
@@ -40,7 +40,7 @@ const snacks = [
 
     },
     {
-        id: "5",
+        id: "13",
         name: "Oreo",
         price: 750,
         category: "Galletitas",
@@ -50,7 +50,7 @@ const snacks = [
 
     },
     {
-        id: "6",
+        id: "14",
         name: "Chocolinas",
         price: 460,
         category: "Galletitas",
@@ -60,7 +60,7 @@ const snacks = [
 
     },
     {
-        id: "7",
+        id: "15",
         name: "Donuts",
         price: 442,
         category: "Dulce",
@@ -70,7 +70,7 @@ const snacks = [
 
     },
     {
-        id: "8",
+        id: "16",
         name: "Toddy",
         price: 927,
         category: "Galletitas",

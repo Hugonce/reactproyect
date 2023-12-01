@@ -6,7 +6,7 @@ const products = [
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00014400/00014450.jpg?3.0.165",
         stock: 361,
-        description: "El mejor del mundo"
+        description: "Bebida"
 
     },
     {
