@@ -6,7 +6,7 @@ const ListaPrductos = [
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00014400/00014450.jpg?3.0.165",
         stock: 361,
-        description: "La bebida"
+        description: "Una bebida azucarada gaseosa vendida a nivel mundial 2.25Lts"
 
     },
     {
@@ -16,7 +16,7 @@ const ListaPrductos = [
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00180400/00180416.jpg?3.0.165",
         stock: 258,
-        description: "fasdadad"
+        description: "El mismo sabor que la Coca cola pero ahora sin azúcar 2.25Lts"
     },
     {
         id: "3",
@@ -25,16 +25,16 @@ const ListaPrductos = [
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00575000/00575009.jpg?3.0.165",
         stock: 1123,
-        description: "gasd"
+        description: "Una edición limitada de coca cola, consegui ya la tuya 473mL"
     },
     {
         id: "4",
         name: "Fanta",
         price: 991,
         category: "Gaseosa",
-        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00016300/00016339.jpg?3.0.165",
+        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00016400/00016477.jpg?3.0.165",
         stock: 232,
-        description: "fasdadad"
+        description: "Refresco con sabor a naranja 2.25Lts"
     },
     {
         id: "5",
@@ -43,16 +43,16 @@ const ListaPrductos = [
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00014400/00014451.jpg?3.0.165",
         stock: 176,
-        description: "fasdadad"
+        description: "Refresco con sabor a lima limón"
     },
     {
         id: "6",
         name: "Agua con gas",
         price: 269,
-        category: "Agua con gas",
+        category: "Agua gasificada",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00488800/00488888.jpg?3.0.165",
         stock: 214,
-        description: "fasdadad"
+        description: "Agua gasificada smartwater 291mL"
     },
     {
         id: "7",
@@ -61,7 +61,7 @@ const ListaPrductos = [
         category: "Agua",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00503800/00503824.jpg?3.0.165",
         stock: 200,
-        description: "fasdadad"
+        description: "Agua mineral Villa del sur 2.25Lts"
     },
     {
         id: "8",
@@ -70,7 +70,7 @@ const ListaPrductos = [
         category: "Agua",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00267300/00267340.jpg?3.0.165",
         stock: 54,
-        description: "fasdadad"
+        description: "Agua de mesa de 6.3Lts"
     },
     {
         id: "9",
@@ -79,7 +79,7 @@ const ListaPrductos = [
         category: "Snack",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00567500/00567578.jpg?3.0.165",
         stock: 58,
-        description: "Papitas"
+        description: "Papas fritas Lays saladas 40g "
     },
     {
         id: "10",
@@ -88,7 +88,7 @@ const ListaPrductos = [
         category: "Snack",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00567500/00567577.jpg?3.0.165",
         stock: 12,
-        description: "fasdadad"
+        description: "Doritos sabor queso 40g"
     },
     {
         id: "11",
@@ -97,7 +97,7 @@ const ListaPrductos = [
         category: "Snack",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00015800/00015882.jpg?3.0.165",
         stock: 4123,
-        description: "gasd"
+        description: "Saladix sabor parmesano 100g"
     },
     {
         id: "12",
@@ -106,7 +106,7 @@ const ListaPrductos = [
         category: "Snack",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00567500/00567597.jpg?3.0.165",
         stock: 357,
-        description: "fasdadad"
+        description: "Chetos sabor queso 43g"
     },
     {
         id: "13",
@@ -115,7 +115,7 @@ const ListaPrductos = [
         category: "Galletitas",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00532200/00532297.jpg?3.0.165",
         stock: 0,
-        description: "fasdadad"
+        description: "Oreos originales 118g"
     },
     {
         id: "14",
@@ -124,7 +124,7 @@ const ListaPrductos = [
         category: "Galletitas",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00541500/00541596.jpg?3.0.165",
         stock: 74,
-        description: "fasdadad"
+        description: "Chocolinas originales 262g"
     },
     {
         id: "15",
@@ -133,16 +133,16 @@ const ListaPrductos = [
         category: "Dulce",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00535300/00535395.jpg?3.0.165",
         stock: 214,
-        description: "fasdadad"
+        description: "Donuts 52g"
     },
     {
         id: "16",
         name: "Toddy",
         price: 927,
         category: "Galletitas",
-        img: "https://static.cotodigital3.com.ar/sitios/fotos/medium/00475100/00475157.jpg?3.0.165",
+        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00475100/00475157.jpg?3.0.165",
         stock: 24,
-        description: "fasdadad"
+        description: "Galletitas Toddy original 126g"
     },
 ]
 

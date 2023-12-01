@@ -5,8 +5,7 @@ const products = [
         price: 1000,
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00014400/00014450.jpg?3.0.165",
-        stock: 361,
-        description: "Bebida"
+        stock: 361
 
     },
     {
@@ -15,8 +14,7 @@ const products = [
         price: 1050,
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00180400/00180416.jpg?3.0.165",
-        stock: 258,
-        description: "fasdadad"
+        stock: 258
 
     },
     {
@@ -25,8 +23,7 @@ const products = [
         price: 570,
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00575000/00575009.jpg?3.0.165",
-        stock: 1123,
-        description: "gasd"
+        stock: 1123
 
     },
     {
@@ -34,9 +31,8 @@ const products = [
         name: "Fanta",
         price: 991,
         category: "Gaseosa",
-        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00016300/00016339.jpg?3.0.165",
-        stock: 232,
-        description: "fasdadad"
+        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00016400/00016477.jpg?3.0.165",
+        stock: 232
 
     },
     {
@@ -45,8 +41,7 @@ const products = [
         price: 991,
         category: "Gaseosa",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00014400/00014451.jpg?3.0.165",
-        stock: 176,
-        description: "fasdadad"
+        stock: 176
 
     },
     {
@@ -55,8 +50,7 @@ const products = [
         price: 269,
         category: "Agua con gas",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00488800/00488888.jpg?3.0.165",
-        stock: 214,
-        description: "fasdadad"
+        stock: 214
 
     },
     {
@@ -65,8 +59,7 @@ const products = [
         price: 382,
         category: "Agua",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00503800/00503824.jpg?3.0.165",
-        stock: 200,
-        description: "fasdadad"
+        stock: 200
 
     },
     {
@@ -75,9 +68,7 @@ const products = [
         price: 930,
         category: "Agua",
         img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00267300/00267340.jpg?3.0.165",
-        stock: 54,
-        description: "fasdadad"
-
+        stock: 54
     },
     
 
