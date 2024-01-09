@@ -1,7 +1,7 @@
 import { useState } from "react";
 import SumoCarrito from "./SumoCarrito";
 
-function ItemCount({initial, stock, idProducto}){
+function PrecioTotal(){
 
     const[quantity, setQuantity] = useState(initial)
 
@@ -36,4 +36,4 @@ function ItemCount({initial, stock, idProducto}){
     )
 }
 
-export default ItemCount;
+export default PrecioTotal;

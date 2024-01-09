@@ -20,7 +20,7 @@ function DetalleProductos(){
                 <h3>${price}</h3>
                 <h3>{description}</h3>
                 <h3>Stock disponible: {stock}</h3>
-                <ItemCount initial={1} stock={stock} onAdd ={(quantity)=> console.log("cantidad agregada", quantity)}/>
+                <ItemCount initial={1} stock={stock} idProducto ={productoId}/>
                 <Link to="/">Volver al inicio</Link>
             </div>
             

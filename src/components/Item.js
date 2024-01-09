@@ -1,6 +1,7 @@
 import "bulma/css/bulma.css"
 import ItemCount from "./ItemCount";
 import { Link } from "react-router-dom";
+import SumoCarrito from "./SumoCarrito";
 function Item ({id,name,img,price,stock}){
 
 
@@ -23,13 +24,9 @@ function Item ({id,name,img,price,stock}){
 
             <footer className="is-flex is-flex-direction-column">
                 <Link to= {`/productos/${id}`} >Ver Detalle</Link>
-                <ItemCount initial={1} stock={stock} onAdd ={(quantity)=> console.log("cantidad agregada", quantity)}/>
+                <ItemCount initial={1} stock={stock} idProducto ={id}/>
                 
             </footer>
-
-
-
-
         </article>
 
 

@@ -67,7 +67,7 @@ const snacks = [
         name: "Toddy",
         price: 927,
         category: "Galletitas",
-        img: "https://static.cotodigital3.com.ar/sitios/fotos/medium/00475100/00475157.jpg?3.0.165",
+        img: "https://static.cotodigital3.com.ar/sitios/fotos/full/00475100/00475157.jpg?3.0.165",
         stock: 24
 
     },
@@ -79,7 +79,7 @@ function getSnacks(){
     return new Promise((resolve)=>{
         setTimeout(() => {
             resolve(snacks);
-        }, 500);
+        }, 300);
 
     })
 }
