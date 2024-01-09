@@ -1,25 +1,26 @@
 import carrito from "../img/carrito-de-compras.png"
 import { Link } from "react-router-dom";
-import { precioArticulo } from "./SumoCarrito";
 import { useState } from "react";
+import { productosCarrito } from "./SumoCarrito";
 
 
 
+    
 
-    export const EditarArticulos = (valor) =>{
-
-            const[articulos, setArticulos] = useState(0)
-            setArticulos(articulos + valor)
+    function CartWidget(){
+        
+        const[articulos, setArticulos] = useState(0)
+        const editarArticulos = () =>{
+            let productosAComprar = 0;
+            productosCarrito.forEach((producto)=> productosAComprar = productosAComprar + Number(producto.cantidad));
+            setArticulos(productosAComprar)
         
     }
 
-    function CartWidget(){
-
-    
     return (
-        <div className= "is-flex is-justify-content-center">
+        <div className= "is-flex is-justify-content-center" onClick={()=> editarArticulos()}>
             <Link to="cart" className="is-size-5"><img className= "image is-64x64 " src={carrito} alt="Carrito-de-compras"/></Link>
-            <Link to="cart" className="is-size-5">{precioArticulo.articulo}</Link>
+            <Link to="cart" className="is-size-5">{articulos}</Link>
         </div>
     )
 }

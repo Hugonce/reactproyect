@@ -107,11 +107,8 @@ export const productosCarrito = [
     },
 
 ]
-export const precioArticulo= [{
-    precio: 0,
-    articulo: 0,
-}
-]
+
+
 function SumoCarrito(idProducto, quantity){
 
     const producto = productosCarrito.find((productosCarrito)=>productosCarrito.id == idProducto);

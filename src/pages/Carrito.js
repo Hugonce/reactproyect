@@ -7,10 +7,11 @@ import { precioArticulo } from "../components/SumoCarrito";
 import { useState } from "react";
 
 function GetCart(){
-    let sumaprecios = 0;
+    
     
     const[precio, setPrecio] = useState(0)
     const actualizarPrecio = () =>{
+        let sumaprecios = 0;
         productosCarrito.forEach((producto)=> sumaprecios = sumaprecios + Number(producto.preciototal));
         if(precio >= 0) {
             setPrecio(sumaprecios)
